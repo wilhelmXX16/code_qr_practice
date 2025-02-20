@@ -5,7 +5,6 @@
     --slate-300-- : hsl(212, 45%, 89%);
     --slate-500-- : hsl(216, 15%, 48%);
     --slate-900-- : hsl(218, 44%, 22%);
-    
 }
 
 /* reset */
@@ -13,6 +12,7 @@
     box-sizing: border-box;
     min-width: 0;
     font-family: "Outfit", serif;
+    
 }
 
 body{
@@ -21,11 +21,13 @@ body{
     display: block;
     max-width: 1440px;
     min-width: 375px;
+    margin: 0;
 }
 h1,h2,h3,h4,h5 {
     text-wrap: balance;
     padding-right: 0;
     margin-bottom: 0;
+    margin-top: 0;
 }
 img{
     width: 100%;
@@ -58,14 +60,16 @@ img{
 .text_card{
     width: 288px;
     height: 131px;
-    margin: 0 1em;
+    padding-top: 0 16px;
     text-align: center;
 }
 .title{
     font-weight: 700;
+    font-size: 20px;
     color: var(--slate-900--);
 }
 .paragraph{
-    font-weight: 400;
+    font-size: 15px;
+    padding: 0 16px ;
     color: var(--slate-500--);
 }
